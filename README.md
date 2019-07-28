@@ -4,9 +4,9 @@
     <img src="https://img.shields.io/badge/Version-Beta.9-yellow"
       alt="Version" />
 </div>
+
 ## Info
 The module is created to make your OxygenOS experience slightly better. I hope you'll notice a bit more battery efficiency as i did.
-
 
 ## Features
 - All (i think) apps that were reported as data colletors changed by a dummy .apk files that won't collect \ share any data.
