@@ -1,6 +1,6 @@
 id=oxyboost
 name=OxyTweaker
-version=10
+version=beta.10
 versionCode=1
 author=SyCreed \ BaaDNwZ
 description=Disable many analitycs services and OnePlus apps that reported as log collectors.
