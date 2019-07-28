@@ -1,3 +1,2 @@
-# OxyBoost
-
+# OxyTweak Magisk module
 
