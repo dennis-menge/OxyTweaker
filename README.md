@@ -11,3 +11,6 @@
 - Some debug stuff disabled
 - Disable adb debug notification. (The usb debug is ON by defuault)
 - Some build.prop tweaks (you can check /common/system.prop for more info)
+
+## Credits
+- The idea was take from the original thread on xda by senior member benwalburn [XDA](https://forum.xda-developers.com/oneplus-5/themes/magisk-oneplus-analytics-disabler-t3686636)
