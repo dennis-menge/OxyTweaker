@@ -6,7 +6,8 @@
 </div>
 
 ## Info
-The module created to make your OxygenOS experience slightly better. I hope you'll notice a bit more battery efficiency as i did.
+The module created to make your OxygenOS experience slightly better. I hope you'll notice a bit more battery efficiency and overall fluidity.
+Feel free to contact me if you'll face any issues, i'll try to help and solve them.
 
 ## Features
 - All (i think) apps that were reported as data colletors changed by a dummy .apk files that won't collect \ share any data.
