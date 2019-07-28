@@ -6,7 +6,7 @@
 </div>
 
 ## Features
-- All (i think) apps that were reported as data colletors changed by a dummy .apk files that won't do anything.
+- All (i think) apps that were reported as data colletors changed by a dummy .apk files that won't collect \ share any data.
 - Disabled some Google Play Services analytics that won't harm your notification. The idea is to improve battery life.
 - Some debug stuff disabled
 - Disable adb debug notification. (The usb debug is ON by defuault)
