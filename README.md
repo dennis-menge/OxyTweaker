@@ -23,6 +23,7 @@ Some command (like GMS analytics disabling commands) executed 2-3 minutes after 
 ## Credits
 - The idea was take from the original thread on [XDA](https://forum.xda-developers.com/oneplus-5/themes/magisk-oneplus-analytics-disabler-t3686636) by senior member benwalburn 
 - @topjohnwu for his awsome work on Magisk
+- @aer0zer0 for helping with it :)
 - Google - yup, search engines are awesome
 
 ### Donations
