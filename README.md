@@ -13,4 +13,10 @@
 - Some build.prop tweaks (you can check /common/system.prop for more info)
 
 ## Credits
-- The idea was take from the original thread on xda by senior member benwalburn [XDA](https://forum.xda-developers.com/oneplus-5/themes/magisk-oneplus-analytics-disabler-t3686636)
+- The idea was take from the original thread on [XDA](https://forum.xda-developers.com/oneplus-5/themes/magisk-oneplus-analytics-disabler-t3686636) by senior member benwalburn 
+- @topjohnwu for his awsome work on Magisk
+- Google - yup, search engines are awesome
+
+### Donations
+- If you like that simple module, feel free to buy me a cup of coffee or a beer... (or both xD)
+[Paypal](https://www.paypal.me/baadnwz)
