@@ -1,6 +1,6 @@
-id=oxyboost
-name=OxyBoost
+id=oxytweaker
+name=OxyTweaker
 version=beta.9
 versionCode=1
 author=SyCreed \ BaaDNwZ
-description=All-in-one module for OxygenOS powered devices
+description=OxygenOS tweaker & Analytics disabler
