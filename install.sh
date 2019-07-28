@@ -51,6 +51,39 @@ REPLACE_EXAMPLE="
 
 # Construct your own list here
 REPLACE="
+/system/app/EngineeringMode/EngineeringMode.apk
+/system/app/EngineeringMode/lib/arm64/libaudiotest_jni.so
+/system/app/EngineeringMode/lib/arm64/libdiagdci.so
+/system/app/EngineeringMode/lib/arm64/liblight_jni.so
+/system/app/EngineeringMode/lib/arm64/libtelcelnetlock.so
+/system/app/EngineeringMode/lib/oat/arm64/EngineeringMode.odex
+/system/app/EngineeringMode/lib/oat/arm64/EngineeringMode.vdex
+/system/app/LogKitSdService/LogKitSdService.apk
+/system/app/LogKitSdService/oat/arm64/LogKitSdService.odex
+/system/app/LogKitSdService/oat/arm64/LogKitSdService.vdex
+/system/app/OEMLogKit/OEMLogKit.apk
+/system/app/OEMLogKit/oat/arm64/OEMLogKit.odex
+/system/app/OEMLogKit/oat/arm64/OEMLogKit.vdex
+/system/app/OPBugReport_Complete/OPBugReport_Complete.apk
+/system/app/OPBugReportLite/OPBugReportLite.apk
+/system/app/OPCommonLogTool/OPCommonLogTool.apk
+/system/app/OPPush/OPPush.apk
+/system/app/NVBackupUI/NVBackupUI.apk
+/system/app/NVBackupUI/oat/arm64/NVBackupUI.odex
+/system/app/NVBackupUI/oat/arm64/NVBackupUI.vdex
+/system/etc/usb_drivers.iso
+/system/bin/bugreport
+/system/bin/bugreportz
+/system/bin/oemlogkit
+/system/lib/libdoor.so
+/system/lib64/libdoor.so
+/system/priv-app/OPDeviceManager/OPDeviceManager.apk
+/system/priv-app/OPDeviceManager/oat/arm64/OPDeviceManager.odex
+/system/priv-app/OPDeviceManager/oat/arm64/OPDeviceManager.vdex
+/system/priv-app/OPDeviceManagerProvider/OPDeviceManagerProvider.apk
+/system/priv-app/OPDeviceManagerProvider/oat/arm64/OPDeviceManagerProvider.odex
+/system/priv-app/OPDeviceManagerProvider/oat/arm64/OPDeviceManagerProvider.vdex
+/system/vendor/etc/init/hw/init.oem.debug.rc
 "
 
 ##########################################################################################
@@ -123,7 +156,7 @@ REPLACE="
 
 print_modname() {
   ui_print "*******************************"
-  ui_print     "    OxyBoost module   "
+  ui_print     "    OxyTweaker module   "
   ui_print "*******************************"
 }
 

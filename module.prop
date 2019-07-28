@@ -1,6 +1,6 @@
-id=oxytweaker
+id=oxyboost
 name=OxyTweaker
-version=b.9
+version=beta.10
 versionCode=1
 author=SyCreed \ BaaDNwZ
-description=OxygenOS tweaker & Analytics disabler
+description=Disable many analitycs services and OnePlus apps that reported as log collectors.
