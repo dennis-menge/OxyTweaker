@@ -48,6 +48,3 @@ pm disable com.google.android.gsf/.update.SystemUpdateService$SecretCodeReceiver
 sleep 30
 #Enable voice record for OxygenOS dialer app (just in case)
 settings put global op_voice_recording_supported_by_mcc 1
-
-#disable some unneeded op services
-pm disable cn.oneplus.nvbackup
