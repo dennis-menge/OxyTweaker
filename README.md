@@ -14,6 +14,7 @@ Feel free to contact me if you'll face any issues, i'll try to help and solve th
 - Disabled some Google Play Services analytics that won't harm your notification. The idea is to improve battery life.
 - Some debug stuff disabled
 - Disable adb debug notification. (The usb debug is ON by defuault)
+- Enabled in-call voice record by default (Must be used with stock OOS dialer)
 - Some build.prop tweaks (you can check /common/system.prop for more info)
 
 ## Important
