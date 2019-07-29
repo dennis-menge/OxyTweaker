@@ -1,7 +1,6 @@
 id=oxyboost
-name=OxyTweaker
-version=For OnePlus 3\3T\5\5T\6\6T\7\7Pro (v.2)
-versionCode=5
+name=OxyBoost
+version=For OnePlus 3\3T, 5\5T, 6\6T, 7\7Pro (v.2)
+versionCode=1
 author=SyCreed (BaaDNwZ)
-description=Disables many analitycs services & error logs, OnePlus log collectors and adds some build.prop tweaks.
-template=1900
+description=Analytics & Loggers disabler with some tweaks.
