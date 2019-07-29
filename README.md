@@ -9,24 +9,27 @@
 I'm not responsible if you brick your device, miss your alarm clock or your gf will brake with you. Use at your own risk.
 
 ## Info
-The module created to make your OxygenOS experience slightly better. I hope you'll notice a bit more battery efficiency and overall fluidity.
-Feel free to contact me if you'll face any issues, i'll try to help and solve them.
+The module created to make your OxygenOS experience slightly better. The idea is to get rid of unneeded analytics & loggers inside [B]OxygenOS [/B] and disabling some unneeded GMS services.
+As a bonus there is few build.prop tweaks that will make the overall experience of using OOS - better.
+
+The module compatible with ALL OnePlus devices since OnePlus 3 that runs OxygeonOS (Android 9 (Pie))!
 
 ## Features
 - All (i think) apps that were reported as data colletors changed by a dummy .apk files that won't collect \ share any data.
 - Disabled some Google Play Services analytics that won't harm your notification. The idea is to improve battery life.
-- Some debug stuff disabled
+- Some debug & system analytics stuff disabled
 - Disable adb debug notification. (The usb debug is ON by defuault)
 - Disable OP drivers pop-on on windows
 - A bit faster animations
+- More volume steps for media volume & in-call volume - i don't like the jump between two last steps on default value
 - Enabled in-call voice record by default (Must be used with stock OOS dialer)
 - Some build.prop tweaks (you can check /common/system.prop for more info)
 
 ## Important
-Some command (like GMS analytics disabling commands) executed 2-3 minutes after boot, so before you report any issues or something that doesn't work, please, wait around 3 minutes and check again.
+Some commands (like GMS analytics disabling commands) executed 2-3 minutes after boot, so before you report any issues or something that doesn't work, please, wait around 3 minutes and check again.
 
 ## Credits
-- The idea was take from the original thread on [XDA](https://forum.xda-developers.com/oneplus-5/themes/magisk-oneplus-analytics-disabler-t3686636) by senior member benwalburn 
+- The idea was taken from the original thread on [XDA](https://forum.xda-developers.com/oneplus-5/themes/magisk-oneplus-analytics-disabler-t3686636) by senior member benwalburn 
 - @topjohnwu for his awsome work on Magisk
 - @aer0zer0 for helping with it :)
 - @nezorflame figuring out some magisk issues
