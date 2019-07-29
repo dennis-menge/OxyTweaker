@@ -9,7 +9,7 @@
 I'm not responsible if you brick your device, miss your alarm clock or your gf will brake with you. Use at your own risk.
 
 ## Info
-The module created to make your OxygenOS experience slightly better. The idea is to get rid of unneeded analytics & loggers inside [B]OxygenOS [/B] and disabling some unneeded GMS services.
+The module created to make your OxygenOS experience slightly better. The idea is to get rid of unneeded analytics & loggers inside OxygenOS and disabling some unneeded GMS services.
 As a bonus there is few build.prop tweaks that will make the overall experience of using OOS - better.
 
 The module compatible with ALL OnePlus devices since OnePlus 3 that runs OxygeonOS (Android 9 (Pie))!
