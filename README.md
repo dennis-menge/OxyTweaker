@@ -5,6 +5,7 @@
       alt="Version" />
 </div>
 
+
 ## Info
 The module created to make your OxygenOS experience slightly better. I hope you'll notice a bit more battery efficiency and overall fluidity.
 Feel free to contact me if you'll face any issues, i'll try to help and solve them.
