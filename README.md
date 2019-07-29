@@ -5,6 +5,8 @@
       alt="Version" />
 </div>
 
+##Disclaimer
+I'm not responsible if you brick your device, miss your alarm clock or your gf will brake with you. Use at your own risk.
 
 ## Info
 The module created to make your OxygenOS experience slightly better. I hope you'll notice a bit more battery efficiency and overall fluidity.
