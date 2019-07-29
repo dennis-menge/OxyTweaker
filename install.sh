@@ -71,6 +71,7 @@ REPLACE="
 /system/app/NVBackupUI/NVBackupUI.apk
 /system/app/NVBackupUI/oat/arm64/NVBackupUI.odex
 /system/app/NVBackupUI/oat/arm64/NVBackupUI.vdex
+/system/app/PhotosOnline/PhotosOnline.apk
 /system/etc/usb_drivers.iso
 /system/bin/bugreport
 /system/bin/bugreportz
