@@ -1,4 +1,4 @@
-3#!/system/bin/sh
+#!/system/bin/sh
 # Do NOT assume where your module will be located.
 # ALWAYS use $MODDIR if you need to know where this script
 # and module is placed.
@@ -6,7 +6,7 @@
 # if Magisk change its mount point in the future
 MODDIR=${0%/*}
 
-# This script will be executed in late_start service 
+# This script will be executed in late_start service mode
 sleep 30
 #Enable voice record for OxygenOS dialer app
 settings put global op_voice_recording_supported_by_mcc 1
