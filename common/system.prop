@@ -26,10 +26,18 @@ ro.kernel.android.checkjni=0
 #Disable error profiler
 profiler.force_disable_err_rpt=1
 profiler.force_disable_ulog=1
+profiler.launch=false
+profiler.debugmonitor=false
+profiler.hung.dumpdobugreport=false
 
 #Keep launcher always in memory
 ro.HOME_APP_ADJ = 1
 
 #Less frequent WiFi search
 wifi.supplicant_scan_interval=360
+
+#More volume steps (Media & In-call)
+ro.config.vc_call_steps=14
+ro.config.media_vol_steps=30
+
 

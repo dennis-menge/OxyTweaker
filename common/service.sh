@@ -1,4 +1,4 @@
-#!/system/bin/sh
+3#!/system/bin/sh
 # Do NOT assume where your module will be located.
 # ALWAYS use $MODDIR if you need to know where this script
 # and module is placed.
@@ -10,6 +10,11 @@ MODDIR=${0%/*}
 sleep 30
 #Enable voice record for OxygenOS dialer app
 settings put global op_voice_recording_supported_by_mcc 1
+
+#A bit faster animations
+settings put global window_animation_scale 0.8
+settings put global transition_animation_scale 0.8
+settings put global animator_duration_scale 0.8
 
 sleep 120
 #Google analytics disable commands
