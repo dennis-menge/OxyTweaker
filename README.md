@@ -1,7 +1,7 @@
 <h1 align="center">OxyTweaker - Your OxygenOS Magisk tweaker & analytics disabler</h1>
 <div align="center">
   <!-- Version -->
-    <img src="https://img.shields.io/badge/Version-Stable%20v.1-green"
+    <img src="https://img.shields.io/badge/Version-Stable-green"
       alt="Version" />
 </div>
 
