@@ -156,7 +156,7 @@ REPLACE="
 
 print_modname() {
   ui_print "*******************************"
-  ui_print     "    OxyTweaker module   "
+  ui_print     "    OxyBoost module   "
   ui_print "*******************************"
 }
 
