@@ -155,9 +155,9 @@ REPLACE="
 # Set what you want to display when installing your module
 
 print_modname() {
-  ui_print "*******************************"
-  ui_print     "    OxyTweaker module   "
-  ui_print "*******************************"
+  ui_print "******************************"
+  ui_print "       OxyTweaker Module      "
+  ui_print "******************************"
 }
 
 # Copy/extract your module files into $MODPATH in on_install.

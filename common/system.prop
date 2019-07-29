@@ -1,3 +1,7 @@
+# This file will be read by resetprop
+# Example: Change dpi
+# ro.sf.lcd_density=320
+
 #Disable debug notification
 persist.adb.notify=0
 
@@ -10,8 +14,6 @@ persist.sys.scrollingcache=4
 debug.sf.hw=1
 debug.sf.recomputecrop=0
 
-
-
 #Disable error checking
 ro.kernel.checkjni=0
 ro.kernel.android.checkjni=0
@@ -21,7 +23,6 @@ persist.service.adb.enable=1
 
 # Debug
 ro.kernel.android.checkjni=0
-
 
 #Disable error profiler
 profiler.force_disable_err_rpt=1
@@ -39,5 +40,3 @@ wifi.supplicant_scan_interval=360
 #More volume steps (Media & In-call)
 ro.config.vc_call_steps=14
 ro.config.media_vol_steps=30
-
-
