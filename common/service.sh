@@ -7,9 +7,7 @@
 MODDIR=${0%/*}
 
 # This script will be executed in late_start service mode
-sleep 30
-#Enable voice record for OxygenOS dialer app
-settings put global op_voice_recording_supported_by_mcc 1
+sleep 20
 
 #A bit faster animations
 settings put global window_animation_scale 0.8
@@ -49,6 +47,4 @@ pm disable com.google.android.gsf/.update.SystemUpdatePanoActivity
 pm disable com.google.android.gsf/.update.SystemUpdateService$Receiver
 pm disable com.google.android.gsf/.update.SystemUpdateService$SecretCodeReceiver
 
-sleep 30
-#Enable voice record for OxygenOS dialer app (just in case)
-settings put global op_voice_recording_supported_by_mcc 1
+
