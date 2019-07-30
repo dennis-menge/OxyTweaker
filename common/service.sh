@@ -14,7 +14,7 @@ settings put global window_animation_scale 0.8
 settings put global transition_animation_scale 0.8
 settings put global animator_duration_scale 0.8
 
-sleep 120
+sleep 150
 #Google analytics disable commands
 pm disable com.google.android.gms/.update.SystemUpdateService
 pm disable com.google.android.gms/com.google.android.gms.analytics.service.AnalyticsService
