@@ -22,7 +22,6 @@ The module compatible with ALL OnePlus devices since OnePlus 3 that runs Oxygeon
 - Disable OP drivers pop-on on windows
 - A bit faster animations
 - More volume steps for media volume & in-call volume - i don't like the jump between two last steps on default value
-- Enabled in-call voice record by default (Must be used with stock OOS dialer)
 - Some build.prop tweaks (you can check /common/system.prop for more info)
 
 ## Important
