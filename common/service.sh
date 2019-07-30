@@ -24,6 +24,10 @@ pm disable com.google.android.gms/com.google.android.gms.analytics.AnalyticsServ
 sleep 1
 pm disable com.google.android.gms/com.google.android.gms.analytics.AnalyticsTaskService
 sleep 1
+pm disable com.google.android.gms/com.google.android.gms.common.stats.GmsCoreStatsService
+sleep 1
+pm disable com.google.android.gms/com.google.android.gms.clearcut.debug.ClearcutDebugDumpService
+sleep 1
 pm disable com.google.android.gms/com.google.android.gms.measurement.AppMeasurementJobService
 sleep 1
 pm disable com.google.android.syncadapters.contacts/com.google.android.gms.analytics.AnalyticsJobService
@@ -88,6 +92,10 @@ sleep 1
 pm disable com.google.android.gms/com.google.android.gms.analytics.AnalyticsService
 sleep 1
 pm disable com.google.android.gms/com.google.android.gms.analytics.AnalyticsTaskService
+sleep 1
+pm disable com.google.android.gms/com.google.android.gms.common.stats.GmsCoreStatsService
+sleep 1
+pm disable com.google.android.gms/com.google.android.gms.clearcut.debug.ClearcutDebugDumpService
 sleep 1
 pm disable com.google.android.gms/com.google.android.gms.measurement.AppMeasurementJobService
 sleep 1
