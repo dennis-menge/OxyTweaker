@@ -18,7 +18,7 @@ The module compatible with ALL OnePlus devices since OnePlus 3 that runs Oxygeon
 - All (i think) apps that were reported as data colletors changed by a dummy .apk files that won't collect \ share any data.
 - Disabled some Google Play Services analytics that won't harm your notification. The idea is to improve battery life.
 - Some debug & system analytics stuff disabled
-- Disable adb debug notification. (The usb debug is ON by defuault)
+- Disable adb debug notification 
 - Disable OP drivers pop-on on windows
 - A bit faster animations
 - More volume steps for media volume & in-call volume - i don't like the jump between two last steps on default value

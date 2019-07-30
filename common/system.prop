@@ -8,8 +8,8 @@ persist.adb.notify=0
 #Scrolling tweaks
 windowsmgr.max_events_per_sec=150
 ro.min_pointer_dur=8 
-ro.max.fling_velocity=12000
-ro.min.fling_velocity=8000
+ro.max.fling_velocity=18000
+ro.min.fling_velocity=10000
 persist.sys.scrollingcache=4
 debug.sf.hw=1
 debug.sf.recomputecrop=0
@@ -17,9 +17,6 @@ debug.sf.recomputecrop=0
 #Disable error checking
 ro.kernel.checkjni=0
 ro.kernel.android.checkjni=0
-
-#Enable ADB by default
-persist.service.adb.enable=1
 
 # Debug
 ro.kernel.android.checkjni=0
@@ -31,6 +28,9 @@ profiler.launch=false
 profiler.debugmonitor=false
 profiler.hung.dumpdobugreport=false
 
+#Do not share usage data
+ro.config.nocheckin=1
+
 #Keep launcher always in memory
 ro.HOME_APP_ADJ = 1
 
@@ -39,4 +39,10 @@ wifi.supplicant_scan_interval=360
 
 #More volume steps (Media & In-call)
 ro.config.vc_call_steps=14
-ro.config.media_vol_steps=30
+ro.config.media_vol_steps=25
+
+#Dalvik-cache
+dalvik.vm.heapsize=64m
+
+#Display mod name
+ro.build.display.id=OxyTweaker v4
