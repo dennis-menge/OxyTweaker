@@ -25,7 +25,6 @@ pm disable com.google.android.gms/com.google.android.gms.analytics.AnalyticsTask
 pm disable com.google.android.gms/com.google.android.gms.measurement.AppMeasurementJobService
 pm disable com.google.android.syncadapters.contacts/com.google.android.gms.analytics.AnalyticsJobService
 pm disable com.google.android.syncadapters.contacts/com.google.android.gms.analytics.AnalyticsService
-pm disable com.google.android.gms/com.google.android.gms.gcm.HeartbeatAlarm$ConnectionInfoPersistService
 pm disable com.google.android.gms/com.google.android.gms.chimera.PersistentIntentOperationService
 pm disable com.google.android.gsf/.update.SystemUpdateService
 pm disable com.android.vending/com.google.android.gms.measurement.AppMeasurementReceiver
