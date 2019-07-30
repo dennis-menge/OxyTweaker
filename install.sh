@@ -158,6 +158,8 @@ REPLACE="
 print_modname() {
   ui_print "******************************"
   ui_print "       OxyTweaker Module      "
+  ui_print "       Made for OxygenOS      "
+  ui_print "      By SyCreed \ BaaDNwZ    "
   ui_print "******************************"
 }
 

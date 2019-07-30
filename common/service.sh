@@ -7,14 +7,22 @@
 MODDIR=${0%/*}
 
 # This script will be executed in late_start service mode
-sleep 20
-
+sleep 30
+settings put global op_voice_recording_supported_by_mcc 1
+sleep 30
+settings put global op_voice_recording_supported_by_mcc 1
+sleep 30
+settings put global op_voice_recording_supported_by_mcc 1
+sleep 30
+settings put global op_voice_recording_supported_by_mcc 1
+sleep 30
+settings put global op_voice_recording_supported_by_mcc 1
 #A bit faster animations
 settings put global window_animation_scale 0.8
 settings put global transition_animation_scale 0.8
 settings put global animator_duration_scale 0.8
 
-sleep 140
+sleep 30
 #Google analytics disable commands
 pm disable com.google.android.gms/.update.SystemUpdateService
 sleep 1
@@ -57,8 +65,6 @@ sleep 1
 pm disable com.google.android.gms/com.google.android.gms.gcm.nts.SchedulerInternalReceiver
 sleep 1
 pm disable com.google.android.gms/com.google.android.gms.gcm.nts.SchedulerReceiver
-sleep 1
-pm disable com.google.android.gms/com.google.android.gms.gcm.nts.SchedulerService
 sleep 1
 pm disable com.google.android.gms/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
 sleep 1
@@ -126,8 +132,6 @@ sleep 1
 pm disable com.google.android.gms/com.google.android.gms.gcm.nts.SchedulerInternalReceiver
 sleep 1
 pm disable com.google.android.gms/com.google.android.gms.gcm.nts.SchedulerReceiver
-sleep 1
-pm disable com.google.android.gms/com.google.android.gms.gcm.nts.SchedulerService
 sleep 1
 pm disable com.google.android.gms/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
 sleep 1
