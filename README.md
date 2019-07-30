@@ -25,7 +25,9 @@ The module compatible with ALL OnePlus devices since OnePlus 3 that runs Oxygeon
 - Some build.prop tweaks (you can check /common/system.prop for more info)
 
 ## Important
-Some commands (like GMS analytics disabling commands) executed 2-3 minutes after boot, so before you report any issues or something that doesn't work, please, wait around 3 minutes and check again.
+- Some commands (like GMS analytics disabling commands) executed 2-3 minutes after boot, so before you report any issues or something that doesn't work, please, wait around 3 minutes and check again.
+- It is NOT recommended to use this module with that or another "ROM" module (for example xXx). I won't support any reported issues if you're using it.
+- If you report any issue, please let me know - which OOS versions you're on, which kernel is used and what another magisk modules you have.
 
 ## Credits
 - The idea was taken from the original thread on [XDA](https://forum.xda-developers.com/oneplus-5/themes/magisk-oneplus-analytics-disabler-t3686636) by senior member benwalburn 
