@@ -49,4 +49,4 @@ ro.config.media_vol_steps=25
 dalvik.vm.heapsize=64m
 
 #Display mod name
-ro.build.display.id=OxyTweaker v5
+ro.build.display.id=OxyTweaker v5.1
