@@ -22,16 +22,6 @@ ro.hwui.text_small_cache_height=2048
 ro.kernel.checkjni=0
 ro.kernel.android.checkjni=0
 
-# Debug
-ro.kernel.android.checkjni=0
-
-#Disable error profiler
-profiler.force_disable_err_rpt=1
-profiler.force_disable_ulog=1
-profiler.launch=false
-profiler.debugmonitor=false
-profiler.hung.dumpdobugreport=false
-
 #Do not share usage data
 ro.config.nocheckin=1
 
@@ -45,8 +35,5 @@ wifi.supplicant_scan_interval=360
 ro.config.vc_call_steps=14
 ro.config.media_vol_steps=25
 
-#Dalvik-cache
-dalvik.vm.heapsize=64m
-
 #Display mod name
-ro.build.display.id=OxyTweaker v5.1
+ro.build.display.id=OxyTweaker v6
