@@ -22,6 +22,9 @@ settings put global window_animation_scale 0.8
 settings put global transition_animation_scale 0.8
 settings put global animator_duration_scale 0.8
 
+#Disable GMS wakelock **It's NOT dozing!!!** - Testing for now. will see how things goes on.
+cmd appops set com.google.android.gms WAKE_LOCK ignore
+
 sleep 90
 #Google analytics disable commands
 #Recievers

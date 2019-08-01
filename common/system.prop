@@ -36,4 +36,4 @@ ro.config.vc_call_steps=14
 ro.config.media_vol_steps=25
 
 #Display mod name
-ro.build.display.id=OxyTweaker v6
+ro.build.display.id=OxyTweaker v7
