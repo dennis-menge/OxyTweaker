@@ -5,19 +5,6 @@
 #Disable debug notification
 persist.adb.notify=0
 
-#Scrolling tweaks
-windowsmgr.max_events_per_sec=150
-ro.min_pointer_dur=8 
-ro.max.fling_velocity=18000
-ro.min.fling_velocity=10000
-persist.sys.scrollingcache=4
-debug.sf.hw=1
-debug.sf.recomputecrop=0
-
-touch.pressure.scale=0
-ro.hwui.text_small_cache_width=2048
-ro.hwui.text_small_cache_height=2048
-
 #Disable error checking
 ro.kernel.checkjni=0
 ro.kernel.android.checkjni=0
@@ -36,4 +23,4 @@ ro.config.vc_call_steps=14
 ro.config.media_vol_steps=25
 
 #Display mod name
-ro.build.display.id=OxyTweaker v7
+ro.build.display.id=OxyTweaker v8

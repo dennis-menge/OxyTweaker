@@ -16,11 +16,11 @@ The module compatible with ALL OnePlus devices since OnePlus 3 that runs Oxygeon
 
 ## Features
 - All (i think) apps that were reported as data colletors changed by a dummy .apk files that won't collect \ share any data.
-- Disabled some Google Play Services analytics that won't harm your notification. The idea is to improve battery life.
+- Disabled Google Play Services wake_lock permission (that won't harm your notification. The idea is to improve battery life.)
+- Changed Google Play Services permission to use location only on foreground - read more about it [HERE](https://developer.android.com/preview/privacy/device-location)
 - Some debug & system analytics stuff disabled
 - Disable adb debug notification 
 - Disable OP drivers pop-on on windows
-- A bit faster animations
 - More volume steps for media volume & in-call volume - i don't like the jump between two last steps on default value
 - Some build.prop tweaks (you can check /common/system.prop for more info)
 

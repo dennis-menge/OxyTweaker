@@ -127,6 +127,16 @@ print_modname() {
   ui_print "       Made for OxygenOS      "
   ui_print "      By SyCreed \ BaaDNwZ    "
   ui_print "******************************"
+  ui_print "    ----- IMPORTANT -----    "
+  ui_print "******************************"
+  ui_print "If you're coming from v7 or earlier"
+  ui_print "Go to download section and get Restore.zip"
+  ui_print "READ IT NOTES!!! "
+  ui_print "******************************"
+  ui_print " "
+  ui_print " "
+  ui_print "I'm not responsible for any broken feature that may accure!"
+  ui_print " Use backups before flashing anything on your device! "
 }
 
 # Copy/extract your module files into $MODPATH in on_install.
