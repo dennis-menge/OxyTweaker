@@ -19,9 +19,10 @@ sleep 30
 settings put global op_voice_recording_supported_by_mcc 1
 
 #disable GMS wakelock **It's NOT dozing!!!** - Testing for now. will see how things goes on.
-cmd appops set com.google.android.gms WAKE_LOCK ignore
-sleep 1
-cmd appops set com.google.android.gsf WAKE_LOCK ignore
+# Disabled WAKE_LOCK ignore, this should probably made configurable?
+#cmd appops set com.google.android.gms WAKE_LOCK ignore
+#sleep 1
+#cmd appops set com.google.android.gsf WAKE_LOCK ignore
 
 #Do not let Google Service use gps in background, only foreground services. (You can find more info about it here https://developer.android.com/preview/privacy/device-location )
 cmd appops set com.google.android.gms COARSE_LOCATION foreground
